@@ -1220,7 +1220,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #6640ff;
+  background: #e8d6ff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2654,7 +2654,7 @@ header.header {
   display: inline-block;
 }
 body {
-  background: url("/uploads/bg0.jpg");
+  background: url("/uploads/bg0.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -2702,4 +2702,29 @@ body > main > div.main-inner.index.posts-expand > div > article > header .post-t
   height: auto !important;
   margin: 15px 0 !important;
   padding: 0 !important;
+}
+body > main > div.column > aside {
+  background-color: #f5f0ff !important;
+  border: 1px solid #d8b4fe !important;
+  border-radius: 8px !important;
+  padding: 15px !important;
+  box-shadow: 0 2px 8px rgba(168,85,247,0.1) !important;
+}
+body > main > div.column > aside h3,
+body > main > div.column > aside .sidebar-title {
+  color: #7e22ce !important;
+  border-bottom: 2px solid #c084fc !important;
+  padding-bottom: 8px !important;
+}
+body > main > div.column > aside a {
+  color: #6b21a8 !important;
+}
+body > main > div.column > aside a:hover {
+  color: #4c1d95 !important;
+  text-decoration: underline !important;
+}
+body > main > div.column {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
