@@ -1220,7 +1220,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #49f1ff;
+  background: #44dbfe;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2686,4 +2686,18 @@ body {
 }
 .popup {
   opacity: 0.9;
+}
+.home .post-body {
+  display: none !important;
+}
+.home article > * {
+  display: none !important;
+}
+.home article > .post-title,
+.home article > header > .post-title,
+.home article > .title-wrap,
+.home article > header .title-wrap {
+  display: block !important;
+  margin: 10px 0 !important;
+  padding: 0 !important;
 }
