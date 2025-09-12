@@ -6,24 +6,48 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-09-12T13:21:51.288Z</updated>
+  <updated>2025-09-12T16:10:10.649Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>willow leaf</name>
+    <name>willow</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我的博客如何搭建的</title>
+    <link href="http://example.com/2025/09/12/%E2%80%9C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E7%9A%84%E2%80%9D/"/>
+    <id>http://example.com/2025/09/12/%E2%80%9C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E7%9A%84%E2%80%9D/</id>
+    <published>2025-09-12T15:31:31.000Z</published>
+    <updated>2025-09-12T16:10:10.649Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-合理使用AI"><a href="#1-合理使用AI" class="headerlink" title="1.合理使用AI"></a>1.合理使用AI</h1><p>确认想要搭建个人博客的初步想法后，就可以直接向AI求助啦~<br>作为预算不够的学生党，当然是选择不用买域名的方式。于是我选择用静态博客。<br>工具选择了Hexo，没有什么详细的考虑，先做为敬，当然后续也考虑尝试使用其他工具。</p><h1 id="2-文档参考"><a href="#2-文档参考" class="headerlink" title="2.文档参考"></a>2.文档参考</h1><p>于是我找到了一篇参考文档：<br><a href="https://www.philoli.com/building-a-blog-from-scratch/">简明教程</a><br>当然，实际操作过程中还是会面临一些问题。作为markdown的代码小白，不知道如何<br>达到自己想要的效果，在网站中的某个地方不知如何用代码实现，那么我们的AI又可以派上大用场了。</p><h1 id="3-Ctrl-C-Ctrl-V"><a href="#3-Ctrl-C-Ctrl-V" class="headerlink" title="3.Ctrl C+Ctrl V"></a>3.Ctrl C+Ctrl V</h1><p>但我们想要改变博客中的菜单栏、底部、文章摘要部分等时，可以在该部分进行右键操作。<br>然后选择”检查”,此时，右边会出现前端代码，在Elements栏滑动时，左边对应部分会以蓝色板块标出，直到选择到你想改变的部分，然后右键代码——&gt;Copy——&gt;Copy selector<br>得到选择器以后，就根据你的要求去询问AI如何写代码吧！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1-合理使用AI&quot;&gt;&lt;a href=&quot;#1-合理使用AI&quot; class=&quot;headerlink&quot; title=&quot;1.合理使用AI&quot;&gt;&lt;/a&gt;1.合理使用AI&lt;/h1&gt;&lt;p&gt;确认想要搭建个人博客的初步想法后，就可以直接向AI求助啦~&lt;br&gt;作为预算不够的学生党，当然</summary>
+      
+    
+    
+    
+    <category term="关于Hexo" scheme="http://example.com/categories/%E5%85%B3%E4%BA%8EHexo/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>“故事伊始”</title>
     <link href="http://example.com/2025/09/12/%E2%80%9C%E6%95%85%E4%BA%8B%E4%BC%8A%E5%A7%8B%E2%80%9D/"/>
     <id>http://example.com/2025/09/12/%E2%80%9C%E6%95%85%E4%BA%8B%E4%BC%8A%E5%A7%8B%E2%80%9D/</id>
     <published>2025-09-12T09:53:52.000Z</published>
-    <updated>2025-09-12T13:21:51.288Z</updated>
+    <updated>2025-09-12T16:23:58.475Z</updated>
     
-    <content type="html"><![CDATA[<span id="more"></span><h1 id="从0开始的互联网生活"><a href="#从0开始的互联网生活" class="headerlink" title="从0开始的互联网生活"></a>从0开始的互联网生活</h1><p>第一次开始搭建Hexo，还蛮稀奇的。从前，我是一个爱写日记的”不正经人”，喜欢写一些花花草草、猫猫狗狗。现在开始学习写一些技术博客，不当之处还望批评指正。下面是自我介绍：</p><h1 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h1><p>本人是重庆滴~（好吧，后面有很多想要说，但我先去改改我的界面）waitting…</p>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h1 id="从0开始的互联网生活"><a href="#从0开始的互联网生活" class="headerlink" title="从0开始的互联网生活"></a>从0开始的互联网生活</h1><p>第一次开始搭建Hexo，还蛮稀奇的。从前，我是一个爱写日记的”不正经人”，喜欢写一些花花草草、猫猫狗狗。现在开始学习写一些技术博客，不当之处还望批评指正。</p><h1 id="故事诗篇"><a href="#故事诗篇" class="headerlink" title="故事诗篇"></a>故事诗篇</h1><pre><code>鉴于文章标题有那么一点诗意，这里留一首我的诗吧，避免后面的一个标题影响心情。</code></pre><p>风雪呤<br>如果悲伤不曾走出我的心境<br>就让这大雨淋漓<br>往事也随风而去<br>如果命运不曾青睐我的轨迹<br>就让这大雪纷飞<br>躁动的心也随之沉寂<br>风雪啊<br>如果你愿吹打我<br>请看看我赤诚的心<br>我行至雪山脚下<br>只为一种生命的宁静</p><h1 id="关于我想要原创头像，但又不会画画，于是求助AI这档子事"><a href="#关于我想要原创头像，但又不会画画，于是求助AI这档子事" class="headerlink" title="关于我想要原创头像，但又不会画画，于是求助AI这档子事"></a>关于我想要原创头像，但又不会画画，于是求助AI这档子事</h1><p>想要一个好看的博客，当然要有一个好看的背景图和头像。为了唯一性，在我学会画画之前，我打算用AI生成背景图、<br>插图和头像，于是我求助了豆包。<br>勉强能看吧，但还生成了一些掉san的图，只好用还算正常的图，给你们分享一下：<br>前方预警！<br>真的<br>前方图片可能会引起不适，胆小者撤退！</p><p>前方图片可能会引起不适，胆小者撤退！</p><p>前方图片可能会引起不适，胆小者撤退！</p><!-- 掉san的AI生成图 --><p><img src="/uploads/san0.png" alt="Hexo博客截图"></p>]]></content>
     
     
       
@@ -42,11 +66,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
+    <title>Hexo 初始文档</title>
     <link href="http://example.com/2025/09/11/hello-world/"/>
     <id>http://example.com/2025/09/11/hello-world/</id>
     <published>2025-09-11T08:56:57.300Z</published>
-    <updated>2025-09-11T08:56:57.300Z</updated>
+    <updated>2025-09-12T15:29:10.602Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -57,6 +81,8 @@
       
     
     
+    
+    <category term="关于Hexo" scheme="http://example.com/categories/%E5%85%B3%E4%BA%8EHexo/"/>
     
     
   </entry>

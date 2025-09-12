@@ -1220,7 +1220,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #44dbfe;
+  background: #6640ff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2654,7 +2654,7 @@ header.header {
   display: inline-block;
 }
 body {
-  background: url("/uploads/background.jpg");
+  background: url("/uploads/bg0.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -2687,17 +2687,19 @@ body {
 .popup {
   opacity: 0.9;
 }
-.home .post-body {
+body > main > div.main-inner.index.posts-expand > div > article > * {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
-.home article > * {
-  display: none !important;
-}
-.home article > .post-title,
-.home article > header > .post-title,
-.home article > .title-wrap,
-.home article > header .title-wrap {
+body > main > div.main-inner.index.posts-expand > div > article > header,
+body > main > div.main-inner.index.posts-expand > div > article > header .post-title,
+body > main > div.main-inner.index.posts-expand > div > article > header .post-title a {
   display: block !important;
-  margin: 10px 0 !important;
+  visibility: visible !important;
+  height: auto !important;
+  margin: 15px 0 !important;
   padding: 0 !important;
 }
