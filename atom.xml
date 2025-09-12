@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-09-12T09:57:38.353Z</updated>
+  <updated>2025-09-12T12:47:52.489Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,8 +21,15 @@
     <link href="http://example.com/2025/09/12/%E2%80%9C%E6%95%85%E4%BA%8B%E4%BC%8A%E5%A7%8B%E2%80%9D/"/>
     <id>http://example.com/2025/09/12/%E2%80%9C%E6%95%85%E4%BA%8B%E4%BC%8A%E5%A7%8B%E2%80%9D/</id>
     <published>2025-09-12T09:53:52.000Z</published>
-    <updated>2025-09-12T09:57:38.353Z</updated>
+    <updated>2025-09-12T12:47:52.489Z</updated>
     
+    <content type="html"><![CDATA[<p>#从0开始的互联网生活<br>第一次开始搭建Hexo，还蛮稀奇的。从前，我是一个爱写日记的”不正经人”，喜欢写一些花花草草、猫猫狗狗。现在开始学习写一些技术博客，不当之处还望批评指正。下面是自我介绍：<br>#自我介绍<br>本人是重庆滴~（好吧，后面有很多想要说，但我先去改改我的界面）waitting…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#从0开始的互联网生活&lt;br&gt;第一次开始搭建Hexo，还蛮稀奇的。从前，我是一个爱写日记的”不正经人”，喜欢写一些花花草草、猫猫狗狗。现在开始学习写一些技术博客，不当之处还望批评指正。下面是自我介绍：&lt;br&gt;#自我介绍&lt;br&gt;本人是重庆滴~（好吧，后面有很多想要说，但我先去</summary>
+      
     
     
     
