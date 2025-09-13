@@ -1220,7 +1220,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff1f9f;
+  background: #bd836a;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2735,4 +2735,8 @@ body > main > div.column {
   background-color: transparent !important;
   border: none !important;
   box-shadow: none !important;
+}
+#gitalk-container {
+  display: block !important; /* 强制显示评论区，!important 确保优先级 */
+  margin-top: 20px; /* 可选：给评论区添加上边距，让布局更美观 */
 }
