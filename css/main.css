@@ -1220,7 +1220,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #bd836a;
+  background: #6eff63;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2736,7 +2736,16 @@ body > main > div.column {
   border: none !important;
   box-shadow: none !important;
 }
-#gitalk-container {
+gitalk-container {
   display: block !important; /* 强制显示评论区，!important 确保优先级 */
   margin-top: 20px; /* 可选：给评论区添加上边距，让布局更美观 */
+}
+.gitalk-container .gt-initing {
+  display: block !important; /* 强制显示（覆盖隐藏逻辑） */
+  opacity: 1 !important; /* 强制不透明（覆盖透明/半透明逻辑） */
+  visibility: visible !important; /* 强制可见（覆盖隐藏逻辑） */
+  z-index: 9999; /* 若被其他元素遮挡，提升层叠顺序 */
+/* 可选：添加动画/间距等样式，让初始化提示更明显 */
+  padding: 20px;
+  text-align: center;
 }
