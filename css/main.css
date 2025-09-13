@@ -1220,7 +1220,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #6eff63;
+  background: #fff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2736,10 +2736,6 @@ body > main > div.column {
   border: none !important;
   box-shadow: none !important;
 }
-gitalk-container {
-  display: block !important; /* 强制显示评论区，!important 确保优先级 */
-  margin-top: 20px; /* 可选：给评论区添加上边距，让布局更美观 */
-}
 .gitalk-container .gt-initing {
   display: block !important; /* 强制显示（覆盖隐藏逻辑） */
   opacity: 1 !important; /* 强制不透明（覆盖透明/半透明逻辑） */
@@ -2748,4 +2744,29 @@ gitalk-container {
 /* 可选：添加动画/间距等样式，让初始化提示更明显 */
   padding: 20px;
   text-align: center;
+}
+.gt-initing,
+.gt-warning,
+.gitalk-container .gt-header,
+.gitalk-container .gt-comments {
+  display: block !important; /* 强制显示 */
+  opacity: 1 !important; /* 强制不透明 */
+  visibility: visible !important; /* 强制可见 */
+  z-index: 9999 !important; /* 强制提升层叠顺序，避免被遮挡 */
+  transition: none !important; /* 关闭可能导致消失的过渡动画 */
+}
+body > main > div.main-inner.post.posts-expand > div.comments.gitalk-container.animated.fadeIn > div > div {
+  display: block !important; /* 强制显示（覆盖隐藏逻辑） */
+  opacity: 1 !important; /* 强制不透明（覆盖透明/半透明逻辑） */
+  visibility: visible !important; /* 强制可见（覆盖隐藏逻辑） */
+  z-index: 9999 !important; /* 提升层叠顺序，避免被其他元素遮挡 */
+  animation: none !important; /* 关闭可能导致“闪现消失”的动画 */
+  transition: none !important; /* 关闭过渡效果，防止样式突变 */
+}
+/* 强制显示 Gitalk 评论区 */
+.gitalk-container {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 9999 !important;
 }
